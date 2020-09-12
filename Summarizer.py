@@ -227,9 +227,10 @@ class Ui_Form(object):
             return sen_new
 
         clean_sentences = [remove_stopwords(r.split()) for r in clean_sentences]
-
+        
+        # Here is the dataset we created before.
         word_embeddings = {}
-        f = open('datasetnewline.txt')
+        f = open('dataset.txt')
         for line in f:
             values = line.split()
             word = values[0]
