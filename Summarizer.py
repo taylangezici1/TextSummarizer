@@ -8,6 +8,8 @@ import re
 from nltk.tokenize import sent_tokenize
 import pandas as pd
 
+#It is a simple UI. It is always improvable of course...
+
 class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
