@@ -1,10 +1,14 @@
-﻿import nltk
+import nltk
 import glob
 import os
 import numpy as np
 import re
 from gensim.models import Word2Vec
 from nltk.corpus import stopwords
+
+
+#What this does is, it takes the corpus and trains it with the Word2Vec word embeddings. So later it can be used to find the word similarities and use the TextRank algorithm.
+#Notice that the Natural Language Toolkit is used to remove the stopwords from the corpus to improve the quality of the dataset.
 
 # The corpus files should be in here...
 path = ''
