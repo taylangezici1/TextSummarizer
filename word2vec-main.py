@@ -9,6 +9,8 @@ from nltk.corpus import stopwords
 
 #What this does is, it takes the corpus and trains it with the Word2Vec word embeddings. So later it can be used to find the word similarities and use the TextRank algorithm.
 #Notice that the Natural Language Toolkit is used to remove the stopwords from the corpus to improve the quality of the dataset.
+#After the dataset is set(it took like 35 mins for me), the text inside of the newstring variable will be used to train the algorithm.
+#So what i did is, just took the newstring text and put it in a dataset.txt file
 
 # The corpus files should be in here...
 path = ''
